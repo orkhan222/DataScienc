@@ -1,0 +1,41 @@
+1.Məlumatların Hazırlanması: Məlumatları modelleməyə hazırlamaq üçün təmizləmə, itkin dəyərlərlə işləmə, 
+kateqoriyalı dəyişənlərin kodlaşdırılması və ehtimal ki, 
+rəqəmsal dəyişənlərin normalizasiyası və ya standartlaşdırılması daxildir.
+
+2.Özəllik Seçimi və Mühəndisliyi: Datasetdəki hansı özəlliklərin (dəyişənlərin) itkini proqnozlaşdırmaqda 
+ən çox proqnozlaşdırıcı olduğunu müəyyən etmək və modelin performansını yaxşılaşdırmaq üçün mövcud olanlardan yeni özəlliklər yaratmaq.
+
+3.Model Seçimi: Məlumatlar üzərində təlim aparmaq üçün bir və ya bir neçə maşın öyrənməsi alqoritmlərinin seçilməsi. 
+Ümumi seçimlər arasında loqistik reqressiya, qərar ağacları, təsadüfi ormanlar, qradient artımı maşınları və neyron şəbəkələri var.
+
+4.Təlim və Validasiya: Modelin performansını qiymətləndirmək üçün dataseti təlim setinə və validasiya (və ya test) setinə bölmək. 
+Modelin görünməmiş məlumatlara yaxşı ümumiləşdirilməsini təmin etmək üçün kross-validasiya kimi texnikalardan istifadə edilə bilər.
+
+5.Qiymətləndirmə: Dəqiqlik, dəqiqlik, xatırlatma, 
+F1 balı və ROC əyrisinin altındakı sahə (AUC) kimi metriklər istifadə edərək modelin performansının qiymətləndirilməsi. 
+Metrik seçimi, itkini proqnozlaşdırma modelinin xüsusi məqsədlərinə və iş kontekstinə bağlı ola bilər.
+
+6.Tətbiq və Monitorinq: Bir model seçilərək tənzimləndikdən sonra, real dünya vəziyyətində itkini proqnozlaşdırmaq üçün tətbiq edilə bilər.
+ Yeni məlumatlar əldə edildikcə modelin zamanla dəqiq qalmasını təmin etmək üçün davamlı monitorinq vacibdir.
+
+
+
+1.Data Preparation: Involving cleaning, handling missing values, encoding categorical variables, 
+and possibly normalizing or standardizing numerical variables to prepare the dataset for modeling.
+
+2.Feature Selection and Engineering: Identifying which features (variables) in the dataset are most predictive of churn and 
+possibly creating new features from the existing ones to improve model performance.
+
+3.Model Selection: Choosing one or more machine learning algorithms to train on the data. Common choices include logistic regression,
+ decision trees, random forests, gradient boosting machines, and neural networks.
+
+4.Training and Validation: Splitting the dataset into a training set to train the model and a validation (or test) set to evaluate its performance. 
+Techniques like cross-validation may be used to ensure that the model generalizes well to unseen data.
+
+5.Evaluation: Assessing the model's performance using metrics such as accuracy, precision, recall, 
+F1 score, and the area under the ROC curve (AUC). 
+The choice of metrics can depend on the specific goals of the churn prediction model and the business context.
+
+6.Implementation and Monitoring: Once a model is selected and tuned, 
+it can be deployed in a real-world setting to predict churn. 
+Continuous monitoring is crucial to ensure the model remains accurate over time as new data becomes available.
